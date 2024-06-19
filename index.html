@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Metric Converter</title>
 </head>
+
 <body>
-    <h1>I'm making a webapp</h1>
+    <h2>Weight Converter</h2>
+    <p>Type a value in the Grams field to convert the value to Kilograms:</p>
+    
+    <p>
+      <label>Grams</label>
+      <input id="inputGrams" type="number" placeholder="Grams" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+    </p>
+    <p>Kilograms: <span id="outputKilograms"></span></p>
+
+<script>
+function weightConverter(valNum) {
+  document.getElementById("outputKilograms").innerHTML=valNum/1000;
+}
+</script>
+    
 </body>
 </html>
