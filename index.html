@@ -5,24 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metric Converter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  hello
-    <h2>Weight Converter</h2>
-    <p>Type a value in the Grams field to convert the value to Kilograms:</p>
-    
-    <p>
-      <label>Grams</label>
-      <input id="inputGrams" type="number" placeholder="Grams" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
-    </p>
-    <p>Kilograms: <span id="outputKilograms"></span></p>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Lab Digital Tools Logo">
+            <span>Lab Digital Tools</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Metric Converter</a></li>
+                <li><a href="#">Calculator</a></li>
+                <li><a href="#">Periodic Table</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<script>
-function weightConverter(valNum) {
-  document.getElementById("outputKilograms").innerHTML=valNum/1000;
-}
-</script>
-    
+    <main>
+        <div class="converter-container">
+            <h1 class="converter-title">Metric Converter</h1>
+            <p class="converter-subtitle">Select volume or weight conversion, select units, enter your value and convert.</p>
+            <div class="toggle-buttons">
+                <button class="tab active" id="volumeButton">Volume</button>
+                <button class="tab" id="weightButton">Weight</button>
+            </div>
+            <div class="converter-form">
+                <div class="form-group">
+                    <select id="selectUnit1" class="unit-selector">
+                        <option value="">Select Unit</option>
+                        <option value="Milimetre">Milimetre</option>
+                        <option value="Centilitre">Centilitre</option>
+                        <option value="Litre">Litre</option>
+                    </select>
+                </div>
+                <span class="equals-sign">=</span>
+                <div class="form-group">
+                    <select id="selectUnit2" class="unit-selector">
+                        <option value="">Select Unit</option>
+                        <option value="Milimetre">Milimetre</option>
+                        <option value="Centilitre">Centilitre</option>
+                        <option value="Litre">Litre</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="inputValue" class="input-box" placeholder="Enter Value">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="outputResult" class="input-box" placeholder="Results" readonly>
+                </div>
+                <button id="convertButton" class="convert-button">Convert</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>

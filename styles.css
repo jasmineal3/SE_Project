@@ -1,0 +1,140 @@
+/* General Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F8F9FA;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    padding: 20px;
+}
+
+/* Converter Container */
+.converter-container {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1), 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 48px;
+    width: 480px;
+    text-align: center;
+}
+
+/* Converter Title */
+.converter-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* Converter Subtitle */
+.converter-subtitle {
+    font-size: 16px;
+    color: #828282;
+    margin-bottom: 24px;
+}
+
+/* Tab Container */
+.toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.toggle-buttons button {
+    background-color: #ddd;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.tab.active, .tab:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1), 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Conversion Inputs */
+.converter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;  
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[readonly] {
+    background-color: #f9f9f9;
+}
+
+button#convertButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
