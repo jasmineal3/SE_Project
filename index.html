@@ -8,16 +8,63 @@
 </head>
 
 <body>
-  hello
+  <body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Lab Digital Tools Logo">
+            <span>Lab Digital Tools</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Metric Converter</a></li>
+                <li><a href="#">Calculator</a></li>
+                <li><a href="#">Periodic Table</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>Weight Converter</h2>
-    <p>Type a value in the Grams field to convert the value to Kilograms:</p>
-    
-    <p>
-      <label>Grams</label>
-      <input id="inputGrams" type="number" placeholder="Grams" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
-  </p>
-  <p>Kilograms: <span id="outputKilograms"></span></p>
-    
+    <main>
+        <div class="converter-container">
+            <h1>Metric Converter</h1>
+            <p>Select volume or weight conversion, select units, enter your value and convert.</p>
+            <div class="toggle-buttons">
+                <button id="volumeButton">Volume</button>
+                <button id="weightButton">Weight</button>
+            </div>
+            <div class="converter-form">
+                <div class="form-group">
+                    <label for="selectUnit1">From:</label>
+                    <select id="selectUnit1">
+                        <option value="">Select Unit</option>
+                        <option value="Centilitre">Milimetre</option>
+                        <option value="Milimetre">Centilitre</option>
+                        <option value="Litre">Litre</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="selectUnit2">To:</label>
+                    <select id="selectUnit2">
+                        <option value="">Select Unit</option>
+                        <option value="Centilitre">Milimetre</option>
+                        <option value="Milimetre">Centilitre</option>
+                        <option value="Litre">Litre</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="inputValue">Enter Value</label>
+                    <input type="number" id="inputValue" placeholder="Enter Value">
+                </div>
+                <div class="form-group">
+                    <label for="outputResult">Results</label>
+                    <input type="text" id="outputResult" placeholder="Results" readonly>
+                </div>
+                <button id="convertButton">Convert</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
