@@ -16,14 +16,8 @@
     <p>
       <label>Grams</label>
       <input id="inputGrams" type="number" placeholder="Grams" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
-    </p>
-    <p>Kilograms: <span id="outputKilograms"></span></p>
-
-<script>
-function weightConverter(valNum) {
-  document.getElementById("outputKilograms").innerHTML=valNum/1000;
-}
-</script>
+  </p>
+  <p>Kilograms: <span id="outputKilograms"></span></p>
     
 </body>
 </html>
