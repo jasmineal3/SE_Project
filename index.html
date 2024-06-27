@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metric Converter</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> 
 </head>
-
+  
 <body>
     <header>
         <div class="logo">
@@ -28,11 +27,12 @@
             <h1 class="converter-title">Metric Converter</h1>
             <p class="converter-subtitle">Select volume or weight conversion, select units, enter your value and convert.</p>
             <div class="toggle-buttons">
-                <button class="tab active" id="volumeButton">Volume</button>
-                <button class="tab" id="weightButton">Weight</button>
+                <button id="volumeButton" class="tab active">Volume</button>
+                <button id="weightButton" class="tab">Weight</button>
             </div>
             <div class="converter-form">
                 <div class="form-group">
+                    <label for="selectUnit1">From:</label>
                     <select id="selectUnit1" class="unit-selector">
                         <option value="">Select Unit</option>
                         <option value="Milimetre">Milimetre</option>
@@ -40,8 +40,8 @@
                         <option value="Litre">Litre</option>
                     </select>
                 </div>
-                <span class="equals-sign">=</span>
                 <div class="form-group">
+                    <label for="selectUnit2">To:</label>
                     <select id="selectUnit2" class="unit-selector">
                         <option value="">Select Unit</option>
                         <option value="Milimetre">Milimetre</option>
@@ -50,17 +50,16 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="number" id="inputValue" class="input-box" placeholder="Enter Value">
+                    <input type="number" id="inputValue" placeholder="Enter Value" class="input-box">
                 </div>
                 <div class="form-group">
-                    <input type="text" id="outputResult" class="input-box" placeholder="Results" readonly>
+                    <input type="text" id="outputResult" placeholder="Results" class="input-box" readonly>
                 </div>
                 <button id="convertButton" class="convert-button">Convert</button>
             </div>
         </div>
     </main>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
