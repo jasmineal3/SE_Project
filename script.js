@@ -1,14 +1,11 @@
-
-<script>
 document.getElementById('convertButton').addEventListener('click', function() {
     const unit1 = document.getElementById('selectUnit1').value;
     const unit2 = document.getElementById('selectUnit2').value;
     const inputValue = parseFloat(document.getElementById('inputValue').value);
 
     let result;
-  
-    if (unit1 == unit2) {
-        result = inputValue;
+
+    if (unit1 === unit2) {result = inputValue;
     } else if (unit1 === 'Milimetre' && unit2 === 'Centilitre') {
         result = inputValue / 10;
     } else if (unit1 === 'Centilitre' && unit2 === 'Litre') {
@@ -33,8 +30,3 @@ document.getElementById('weightButton').addEventListener('click', function() {
     // Add functionality for weight conversion
     alert('Weight conversion functionality coming soon!');
 });
-
-
-</script>
-
-

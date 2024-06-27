@@ -83,14 +83,14 @@ main {
     margin-bottom: 24px;
 }
 
-.toggle-buttons button {
-    background-color: #ddd;
+.tab {
+    background: #F5F5F5;
     border: none;
     border-radius: 8px;
     padding: 10px 20px;
-    margin: 0 5px;
     cursor: pointer;
-    border-radius: 4px;
+    margin: 0 5px;
+    transition: background 0.3s;
 }
 
 .tab.active, .tab:hover {
@@ -102,39 +102,52 @@ main {
 .converter-form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;  
+    justify-content: center;
     align-items: center;
 }
 
 .form-group {
     margin-bottom: 20px;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
+    margin: 2 20px;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.unit-selector {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-select,
-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
+.equals-sign {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 2 10px;
+}
+
+.input-box {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 input[readonly] {
     background-color: #f9f9f9;
 }
 
-button#convertButton {
-    background-color: #007BFF;
-    color: #fff;
+/* Convert Button */
+.convert-button {
+    background: #007BFF;
+    color: #FFFFFF;
     border: none;
-    padding: 10px 20px;
+    padding: 14px 24px;
+    border-radius: 8px;
     cursor: pointer;
-    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
 }
