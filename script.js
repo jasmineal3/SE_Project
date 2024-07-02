@@ -1,3 +1,13 @@
+document.getElementById('calculatorLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    alert('Calculator function coming soon!');
+});
+
+document.getElementById('periodicTableLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    alert('Periodic Table coming soon!');
+});
+
 document.getElementById('convertButton').addEventListener('click', function() {
     const unit1 = document.getElementById('selectUnit1').value;
     const unit2 = document.getElementById('selectUnit2').value;
