@@ -1,3 +1,13 @@
+document.getElementById('calculatorLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    alert('Calculator function coming soon!');
+});
+
+document.getElementById('periodicTableLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    alert('Periodic Table coming soon!');
+});
+
 document.getElementById('convertButton').addEventListener('click', function() {
     const unit1 = document.getElementById('selectUnit1').value;
     const unit2 = document.getElementById('selectUnit2').value;
@@ -21,12 +31,7 @@ document.getElementById('convertButton').addEventListener('click', function() {
     document.getElementById('outputResult').value = result;
 });
 
-document.getElementById('volumeButton').addEventListener('click', function() {
-    // Add functionality for volume conversion
-    alert('Volume conversion functionality coming soon!');
-});
 
 document.getElementById('weightButton').addEventListener('click', function() {
-    // Add functionality for weight conversion
     alert('Weight conversion functionality coming soon!');
 });
