@@ -16,17 +16,17 @@ document.getElementById('convertButton').addEventListener('click', function() {
     let result;
 
     if (unit1 === unit2) {result = inputValue;
-    } else if (unit1 === 'Milimetre' && unit2 === 'Centilitre') {
+    } else if (unit1 === 'Milimitre' && unit2 === 'Centilitre') {
         result = inputValue / 10;
     } else if (unit1 === 'Centilitre' && unit2 === 'Litre') {
         result = inputValue / 100;
     } else if (unit1 === 'Litre' && unit2 === 'Centilitre') {
         result = inputValue * 100;
-    } else if (unit1 === 'Centilitre' && unit2 === 'Milimetre') {
+    } else if (unit1 === 'Centilitre' && unit2 === 'Milimitre') {
         result = inputValue * 10;
-    } else if (unit1 === 'Milimetre' && unit2 === 'Litre') {
+    } else if (unit1 === 'Milimitre' && unit2 === 'Litre') {
         result = inputValue / 1000;
-    } else if (unit1 === 'Litre' && unit2 === 'Milimetre') {
+    } else if (unit1 === 'Litre' && unit2 === 'Milimitre') {
         result = inputValue * 1000;
     } else {
         result = 'Invalid unit conversion';
