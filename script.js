@@ -21,12 +21,7 @@ document.getElementById('convertButton').addEventListener('click', function() {
     document.getElementById('outputResult').value = result;
 });
 
-document.getElementById('volumeButton').addEventListener('click', function() {
-    // Add functionality for volume conversion
-    alert('Volume conversion functionality coming soon!');
-});
 
 document.getElementById('weightButton').addEventListener('click', function() {
-    // Add functionality for weight conversion
     alert('Weight conversion functionality coming soon!');
 });
