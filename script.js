@@ -26,7 +26,7 @@ document.getElementById('convertButton').addEventListener('click', function() {
         result = inputValue * 10;
     } else if (unit1 === 'Milimetre' && unit2 === 'Litre') {
         result = inputValue / 1000;
-    } else if (unit1 === 'Litre' && unit2 === 'Militre') {
+    } else if (unit1 === 'Litre' && unit2 === 'Milimetre') {
         result = inputValue * 1000;
     } else {
         result = 'Invalid unit conversion';
