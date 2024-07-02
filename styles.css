@@ -23,9 +23,9 @@ header {
     align-items: center;
 }
 
-.logo img {
+.logo-image {
     height: 80px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 nav ul {
