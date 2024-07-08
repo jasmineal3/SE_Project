@@ -214,7 +214,7 @@ main {
 input[readonly] {
     /* Set the background color for readonly inputs */
     background-color: #f9f9f9;
-
+}
     
 /* Convert Button */
 .convert-button {
