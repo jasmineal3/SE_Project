@@ -8,7 +8,7 @@
 function convertVolume(value, fromUnit, toUnit) {
     // Conversion rates to Milimetre
     const conversionRates = {
-        Milimetre: 1,
+        Mililitre: 1,
         Centilitre: 10,
         Litre: 1000
     };
