@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags provide information about the webpage to the browser and other web services -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metric Converter</title>
     <link rel="stylesheet" href="styles.css"> 
 </head>
+
   
 <body>
     <header>
+        <!-- Logo section -->
         <div class="logo">
+            <!-- Logo image -->
             <img src="images/toolslogo.png" alt="Lab Digital Tools Logo" class="logo-image">
             <span>Lab Digital Tools</span>
         </div>
+          <!-- Navigation section -->
         <nav>
             <ul>
                 <li><a href="#">Metric Converter</a></li>
@@ -22,15 +27,21 @@
         </nav>
     </header>
 
+      <!-- Main content of the webpage -->
     <main>
         <div class="converter-container">
+              <!-- Converter title -->
             <h1 class="converter-title">Metric Converter</h1>
+            <!-- Converter subtitle for directions -->
             <p class="converter-subtitle">Select volume or weight conversion, select units, enter your value and convert.</p>
+            <!-- Section to select volume or weight conversion -->
             <div class="toggle-buttons">
                 <button id="volumeButton" class="tab active">Volume</button>
                 <button id="weightButton" class="tab">Weight</button>
             </div>
+            <!-- Form for the conversion -->
             <div class="converter-form">
+                <!-- Section to select the unit to convert from -->
                 <div class="form-group">
                     <label for="selectUnit1">From:</label>
                     <select id="selectUnit1" class="unit-selector">
@@ -40,6 +51,7 @@
                         <option value="Litre">Litre</option>
                     </select>
                 </div>
+                <!-- Section to select the unit to convert to -->
                 <div class="form-group">
                     <label for="selectUnit2">To:</label>
                     <select id="selectUnit2" class="unit-selector">
@@ -49,17 +61,20 @@
                         <option value="Litre">Litre</option>
                     </select>
                 </div>
+                 <!-- Section to input the value to convert -->
                 <div class="form-group">
                     <input type="number" id="inputValue" placeholder="Enter Value" class="input-box">
                 </div>
+                <!-- Section to display the conversion result -->
                 <div class="form-group">
                     <input type="text" id="outputResult" placeholder="Results" class="input-box" readonly>
                 </div>
+                <!-- Convert button -->
                 <button id="convertButton" class="convert-button">Convert</button>
             </div>
         </div>
     </main>
-
+    <!-- Link to the external JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>

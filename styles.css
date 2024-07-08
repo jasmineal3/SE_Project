@@ -1,154 +1,239 @@
 /* General Styling */
 body {
+    /* Set the font family for the body */
     font-family: 'Inter', sans-serif;
+    /* Set the background color for the body */
     background-color: #F8F9FA;
+    /* Remove the margin */
     margin: 0;
+    /* Remove the padding */
     padding: 0;
+    /* Display the body as a flex container */
     display: flex;
+    /* Set the flex direction to column */
     flex-direction: column;
 }
 
 header {
+    /* Display the header as a flex container */
     display: flex;
+    /* Distribute the items evenly */
     justify-content: space-between;
+    /* Align the items vertically */
     align-items: center;
+    /* Add padding */
     padding: 20px;
+    /* Set the background color */
     background-color: #fff;
+    /* Add a border at the bottom */
     border-bottom: 1px solid #ddd;
+    /* Set the font weight to bold */
     font-weight: bold;
 }
 
 .logo {
+    /* Display the logo as a flex container */
     display: flex;
+    /* Align the items vertically */
     align-items: center;
 }
 
 .logo-image {
+    /* Set the height of the logo image */
     height: 80px;
+    /* Add margin to the right */
     margin-right: 20px;
 }
 
 nav ul {
+    /* Remove the list style */
     list-style: none;
+    /* Remove the margin */
     margin: 0;
+    /* Remove the padding */
     padding: 0;
+    /* Display the list as a flex container */
     display: flex;
 }
 
 nav ul li {
+    /* Add margin to the left */
     margin-left: 20px;
 }
 
 nav ul li a {
+    /* Remove the text decoration */
     text-decoration: none;
+    /* Set the color */
     color: #333;
+    /* Set the font weight to normal */
     font-weight: normal;
 }
 
 main {
+    /* Display the main content as a flex container */
     display: flex;
+    /* Center the items horizontally */
     justify-content: center;
+    /* Center the items vertically */
     align-items: center;
+    /* Set the height */
     height: calc(100vh - 60px);
+    /* Add padding */
     padding: 20px;
 }
 
 /* Converter Container */
 .converter-container {
+    /* Set the background color */
     background: #FFFFFF;
+    /* Add a shadow */
     box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1), 0px 0px 15px rgba(0, 0, 0, 0.1);
+    /* Add border radius */
     border-radius: 12px;
+    /* Add padding */
     padding: 48px;
+    /* Set the width */
     width: 480px;
+    /* Center the text */
     text-align: center;
 }
 
 /* Converter Title */
 .converter-title {
+    /* Set the font size */
     font-size: 32px;
+    /* Set the font weight */
     font-weight: 600;
+    /* Add margin to the bottom */
     margin-bottom: 16px;
 }
 
 /* Converter Subtitle */
 .converter-subtitle {
+    /* Set the font size */
     font-size: 16px;
+    /* Set the color */
     color: #828282;
+    /* Add margin to the bottom */
     margin-bottom: 24px;
 }
 
 /* Tab Container */
 .toggle-buttons {
+    /* Display the buttons as a flex container */
     display: flex;
+    /* Center the buttons horizontally */
     justify-content: center;
+    /* Add margin to the bottom */
     margin-bottom: 24px;
 }
 
 .tab {
+    /* Set the background color */
     background: #F5F5F5;
+    /* Remove the border */
     border: none;
+    /* Add border radius */
     border-radius: 8px;
+    /* Add padding */
     padding: 10px 20px;
+    /* Change the cursor when hovering */
     cursor: pointer;
+    /* Add margin */
     margin: 0 5px;
+    /* Add a transition effect */
     transition: background 0.3s;
 }
 
 .tab.active, .tab:hover {
+    /* Change the background color when active or hovering */
     background: #FFFFFF;
+    /* Add a shadow when active or hovering */
     box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1), 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Conversion Inputs */
 .converter-form {
+    /* Display the form as a flex container */
     display: flex;
+    /* Allow the items to wrap */
     flex-wrap: wrap;
+    /* Center the items horizontally */
     justify-content: center;
+    /* Center the items vertically */
     align-items: center;
 }
 
 .form-group {
+    /* Add margin to the bottom */
     margin-bottom: 20px;
+    /* Set the width */
     width: 100%;
+    /* Set the maximum width */
     max-width: 200px;
+    /* Add margin */
     margin: 2 20px;
 }
 
 .unit-selector {
+    /* Set the width */
     width: 90%;
+    /* Add padding */
     padding: 12px;
+    /* Add border */
     border: 1px solid #E0E0E0;
+    /* Add border radius */
     border-radius: 8px;
+    /* Add shadows */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .equals-sign {
-    font-size: 24px;
-    font-weight: 600;
-    margin: 2 10px;
+     /* Set the font size */
+     font-size: 24px;
+     /* Set the font weight */
+     font-weight: 600;
+     /* Add margin */
+     margin: 2 10px;
 }
 
 .input-box {
+    /* Set the width */
     width: 80%;
+    /* Add padding */
     padding: 12px;
+    /* Add border */
     border: 1px solid #E0E0E0;
+    /* Add border radius */
     border-radius: 8px;
+    /* Add shadows */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 input[readonly] {
+    /* Set the background color for readonly inputs */
     background-color: #f9f9f9;
-}
 
+    
 /* Convert Button */
 .convert-button {
+    /* Set the background color */
     background: #007BFF;
+    /* Set the text color */
     color: #FFFFFF;
+    /* Remove the border */
     border: none;
+    /* Add padding */
     padding: 14px 24px;
+    /* Add border radius */
     border-radius: 8px;
+    /* Change the cursor on hover */
     cursor: pointer;
+    /* Set the font size */
     font-size: 16px;
+    /* Set the width */
     width: 100%;
+    /* Add margin to the top */
     margin-top: 20px;
-}
+}}
