@@ -1,0 +1,17 @@
+{"name":"se_project",
+"version":"1.0.0",
+"description":"Metric converter",
+"main":"index.test.js",
+"scripts":{
+  "test":"jest"
+  },
+  "author":"jasmineal3",
+  "license":"MIT",
+  "devDependencies":{
+    "jest":"^29.7.0",
+    "jsdom":"24.1.0"
+  },
+  "dependencies":{
+    "dotenv":"16.4.5"},
+    "directories":{"test":"tests"},
+    "keywords":[]}
