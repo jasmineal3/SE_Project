@@ -46,10 +46,10 @@ The initial ‘launch’ phase releases the tool with a feature for a volume met
 
 <br>
 <p align="center">
-  <img src="doc_images/ProjectPlan.jpg" alt="Project Launch Phase Cycle" width="700"/> <br>
-  <em>Figure 1 - Project Launch Phase Cycle</em>
+<img src="doc_images/ProjectPlan.jpg" alt="Project Launch Phase Cycle" width="700"/> <br>
+<em>Figure 1 - Project Launch Phase Cycle</em>
 </p>
-<br>
+
 
 ### Agile Methodology
 An [agile approach]() is adopted for the project delivery of Lab Digital Tools, which breaks down the project into iterative cycles so that continuous improvement and collaboration are executed. The project delivers a cycle over 6 weeks – illustrated in Figure 1 and created using Miro. This cycle’s goal was to deliver the Lab Digital Tool web app with a functioning feature for a volume metric conversion. The future cycles would see the release of the weight conversion then a calculator and periodic table feature.
@@ -207,5 +207,6 @@ Protecting the longevity of the web tool through improving the scalability and m
 
 ### Conclusion
 The Lab Digital Tool web app is a valuable resource for workplace scientists by providing a central hub for essential tools.  Overall, the journey of developing and refining the Lab Digital Tool web app has highlighted the importance of user-centred design, robust functionality with testing, and continuous improvement. Future planned enhancements means the app is positioned to meet the diverse needs of its users and support high productivity in science.
+
 
 </body>
