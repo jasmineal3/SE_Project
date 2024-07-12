@@ -30,20 +30,6 @@ The [Lab Digital Tools](https://jasmineal3.github.io/SE_Project/) is a web appli
 ### Project Description
 The initial ‘launch’ phase releases the tool with a feature for a volume metric conversion. Currently, scientists switch between different platforms and devices to access these essential tools, making this process not only time-consuming but also disruptive to the workflow. To solve this problem, the proposed web application would house these tools in one place, accessible with just one click.
 
-<<<<<<< HEAD
-### Tech Stack
-[GitHub Repository](https://github.com/jasmineal3/SE_Project) - Platform for software development.<br>
-[HTML](https://www.w3schools.com/html/) – Structures web page.<br>
-[CSS](https://www.w3schools.com/css/) – Styling and layout.<br>
-[JavaScript](https://www.w3schools.com/js/) – Adding interactive functionality e.g. unit conversion.<br>
-[JSON](https://www.json.org/json-en.html) – Testing.<br>
-[YAML](https://yaml.org/) – Configures automation testing.<br>
-[Git](https://git-scm.com/) – Version control of code files.<br>
-[VS Code](https://code.visualstudio.com/) – Code editor.<br>
-[GitHub projects](https://docs.github.com/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) – Project kanban board.<br>
-[Figma](https://www.figma.com/) – Designing wireframes.<br>
-[Miro](https://miro.com/app/) – Project mapping and user persona building.<br><br>
-=======
 ### Tech Stack
 [HTML](https://www.w3schools.com/html/) – Structures web page.<br>
 [CSS](https://www.w3schools.com/css/) – Styling and layout.<br>
@@ -55,31 +41,16 @@ The initial ‘launch’ phase releases the tool with a feature for a volume met
 [GitHub projects](https://docs.github.com/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) – Project kanban board.<br>
 [Figma](https://www.figma.com/) – Designing wireframes.<br>
 [Miro](https://miro.com/app/) – Project mapping and user persona building.<br><br>
->>>>>>> 6a512276bffae427d26f1479cbb1911bf25d20c8
 
 ## Project Plan
+
 <br>
 <p align="center">
   <img src="doc_images/ProjectPlan.jpg" alt="Project Launch Phase Cycle" width="700"/> <br>
   <em>Figure 1 - Project Launch Phase Cycle</em>
 </p>
-
-<<<<<<< HEAD
-### Agile Methodology
-An [agile approach]() is adopted for the project delivery of Lab Digital Tools, which breaks down the project into iterative cycles so that continuous improvement and collaboration are executed. The project delivers a cycle over 6 weeks – illustrated in Figure 1 and created using Miro. This cycle’s goal was to deliver the Lab Digital Tool web app with a functioning feature for a volume metric conversion. The future cycles would see the release of the weight conversion then a calculator and periodic table feature.
-<br><br>
-The launch phase of a 6-week cycle adopted a [scrum methodology](https://www.scrum.org/resources/what-scrum-module) where 2-week sprints were timeboxed (shown in Figure 1), which involved iterations between requirements gathering, design, development, testing and documentation. At the end of the 6-week cycle, the web app rolls out to the users.
-
-### Planning Tool
-To track the project’s progress the planning tool within GitHub called GitHub Projects was used to create the [Lab Digital Tools project board](https://github.com/users/jasmineal3/projects/1). 
-This visual kanban board is organised so that each label’s name and colour are coordinated with the project plan items. New issues are assigned to an individual and labelled for transparency and accountability. Each issue is automatically closed through either a pull request or adding comments. In Figure 2, the completed project board after the project is demonstrated.
 <br>
-<p align="center">
-  <img src="doc_images/ProjectBoard.JPG" alt="Project Board" width="700"/> <br>
-  <em>Figure 2 - Project Board </em>
-</p>
 
-=======
 ### Agile Methodology
 An [agile approach]() is adopted for the project delivery of Lab Digital Tools, which breaks down the project into iterative cycles so that continuous improvement and collaboration are executed. The project delivers a cycle over 6 weeks – illustrated in Figure 1 and created using Miro. This cycle’s goal was to deliver the Lab Digital Tool web app with a functioning feature for a volume metric conversion. The future cycles would see the release of the weight conversion then a calculator and periodic table feature.
 <br><br>
@@ -94,7 +65,6 @@ This visual kanban board is organised so that each label’s name and colour are
   <em>Figure 2 - Project Board </em>
 </p>
 
->>>>>>> 6a512276bffae427d26f1479cbb1911bf25d20c8
 ## Requirements
 ### Users
 To begin gathering requirements a [design thinking](https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process#:~:text=Design%20thinking%20is%20an%20iterative,%2C%20Ideate%2C%20Prototype%20and%20Test.) 
